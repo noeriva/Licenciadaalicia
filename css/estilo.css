@@ -1,0 +1,103 @@
+*{
+	font-family: arial narrow, arial, sans-serif;
+	margin: 0 auto;
+}
+
+@font-face {
+	font-family: "cursiva";
+	src: url(../fonts/Aspire-DemiBold.ttf);
+}
+header {
+	background: url(../img/base.png) no-repeat;
+	background-size:100% 100%;
+	min-height: 500px;
+	width: 100%;
+}
+.name {
+	color:white;
+	font-family: "cursiva";
+	font-size: 35px;
+	position: relative;
+	margin-top: 20%;
+	text-align: center;
+	padding: 20%;
+	margin-left: 10%;
+	background: rgba(245,207,201,1);
+	background: -moz-linear-gradient(left, rgba(245,207,201,1) 0%, rgba(59,15,10,0.3) 71%, rgba(71,18,82,0.02) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(245,207,201,1)), color-stop(71%, rgba(59,15,10,0.3)), color-stop(100%, rgba(71,18,82,0.02)));
+	background: -webkit-linear-gradient(left, rgba(245,207,201,1) 0%, rgba(59,15,10,0.3) 71%, rgba(71,18,82,0.02) 100%);
+	background: -o-linear-gradient(left, rgba(245,207,201,1) 0%, rgba(59,15,10,0.3) 71%, rgba(71,18,82,0.02) 100%);
+	background: -ms-linear-gradient(left, rgba(245,207,201,1) 0%, rgba(59,15,10,0.3) 71%, rgba(71,18,82,0.02) 100%);
+	background: linear-gradient(to right, rgba(245,207,201,1) 0%, rgba(59,15,10,0.3) 71%, rgba(71,18,82,0.02) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5cfc9', endColorstr='#471252', GradientType=1 );
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.39);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.39);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.39);
+}
+
+nav{
+	text-align: center;
+}
+
+nav:first-of-type ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 5%;
+	font-family: "cursiva";
+	font-size: 30px;
+	color: #4C0B5F;
+	border-bottom: 1px solid #4C0B5F; 
+	padding-bottom: 1%;
+	width: 5%;
+
+}
+
+nav:first-of-type ul li:hover{
+	border-bottom: 1px dotted #4C0B5F; 
+}
+.nav {
+	font-family: arial;
+	font-size: 25px;
+	color: white;
+}
+body main {
+	background: url(../img/main.png) no-repeat;
+	background-size: 100% 300px;
+	margin-top: 20px;
+	min-height: 300px;
+}
+h1 {
+	font-family: "cursiva";
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: 10px;
+	font-family: arial;
+	width: 90%;
+	margin-top: 40px;
+}
+article {
+	text-align: center;
+	margin: 50px;
+	min-height: 400px;
+
+}
+ ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 5%;
+	text-align: center;
+	}
+footer{
+	text-align: center;
+	position: absolute;
+	background: url(../img/footer.png)no-repeat;
+	background-size: 100% 400px;
+
+	}
+.row {
+	width: 100%;
+
+}
